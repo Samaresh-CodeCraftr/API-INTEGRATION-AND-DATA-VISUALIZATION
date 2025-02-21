@@ -5,28 +5,61 @@
 *DOMAIN*: PYTHON PROGRAMMING
 *DURATION*: 4 WEEKS
 *MENTOR*: NEELA SANTHOSH KUMAR
-*Description*:
-This project fetches real-time data from the OpenWeatherMap API and visualizes it using Matplotlib. The script retrieves temperature data for major Indian cities and presents it in a bar chart for easy analysis.
+# Weather Visualization using OpenWeather API
 
-*Features*:
-✅ API integration with OpenWeatherMap.
-✅ Fetches live temperature data for multiple cities.
-✅ Generates a bar chart to compare city temperatures.
-✅ Handles missing data and errors gracefully.
+## Description
+This Python project fetches real-time weather data for major Indian cities using the **OpenWeatherMap API** and visualizes the temperature data in a bar chart using **Matplotlib**.
 
-*Requirements*:
-Python 3.x
-Requests
-Matplotlib
-dotenv (for API key management)
+## Features
+✅ Fetches real-time temperature data from OpenWeatherMap API.
+✅ Retrieves data for major Indian cities: Mumbai, Delhi, Bangalore, Chennai, and Kolkata.
+✅ Handles missing data and API errors gracefully.
+✅ Visualizes the data using a bar chart.
 
-*Installation & Usage*:
-1.Clone the repository
-CODE-git clone https://github.com/your-username/task1-api-visualization.git
-cd task1-api-visualization
-2.Install dependencies:
-CODE-pip install -r requirements.txt
-3.Set up your API KEY
+## Requirements
+- Python 3.x
+- `requests` (for API calls)
+- `matplotlib` (for data visualization)
+- `python-dotenv` (for managing API keys)
+
+## Installation & Usage
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/weather-visualization.git
+cd weather-visualization
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set Up Your API Key
+- Create a `.env` file in the project directory.
+- Add your OpenWeather API key inside the `.env` file:
+```bash
+OPENWEATHER_API_KEY=your_api_key_here
+```
+
+### 4. Run the Script
+```bash
+python weather_visualization.py
+```
+
+## Output
+The script will generate a bar chart displaying the temperature of different cities.
+
+## Example Visualization
+![Weather Visualization](screenshot.png) *(Upload an actual screenshot after running the script)*
+
+## Contributing
+Feel free to fork the repository, improve the script, and submit pull requests!
+
+## License
+This project is licensed under the **MIT License**.
+
+
 
 *OUT PUT*
 ![Image](https://github.com/user-attachments/assets/006070af-e175-4b19-b688-07e5a6990935)
