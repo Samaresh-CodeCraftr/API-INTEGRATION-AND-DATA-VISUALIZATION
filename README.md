@@ -29,4 +29,4 @@ CODE-pip install -r requirements.txt
 3.Set up your API KEY
 
 *OUT PUT*
-
+![Image](https://github.com/user-attachments/assets/006070af-e175-4b19-b688-07e5a6990935)
