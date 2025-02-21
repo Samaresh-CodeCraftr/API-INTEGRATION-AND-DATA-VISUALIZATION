@@ -53,13 +53,5 @@ The script will generate a bar chart displaying the temperature of different cit
 ## Example Visualization
 ![Weather Visualization](screenshot.png) *(Upload an actual screenshot after running the script)*
 
-## Contributing
-Feel free to fork the repository, improve the script, and submit pull requests!
-
-## License
-This project is licensed under the **MIT License**.
-
-
-
 *OUT PUT*
 ![Image](https://github.com/user-attachments/assets/006070af-e175-4b19-b688-07e5a6990935)
