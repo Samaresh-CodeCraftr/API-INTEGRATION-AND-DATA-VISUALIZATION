@@ -49,9 +49,4 @@ python weather_visualization.py
 
 ## Output
 The script will generate a bar chart displaying the temperature of different cities.
-
-## Example Visualization
-![Weather Visualization](screenshot.png) *(Upload an actual screenshot after running the script)*
-
-*OUT PUT*
 ![Image](https://github.com/user-attachments/assets/006070af-e175-4b19-b688-07e5a6990935)
